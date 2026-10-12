@@ -113,37 +113,6 @@
     }
   };
 
-  // Profile image hover effects
-  const ProfileManager = {
-    counter: 0,
-    hoverImages: [
-      "assets/profile/cuda.webp",
-      "assets/profile/mcflurry.webp",
-    ],
-    defaultImage: "assets/profile/tianxiao.jpg",
-
-    init() {
-      const profileCredit = document.getElementById("profile-credit");
-      const profileImg = document.getElementById("profile");
-
-      if (!profileCredit || !profileImg) return;
-
-      profileCredit.addEventListener("mouseenter", () => this.showHoverImage(profileImg));
-      profileCredit.addEventListener("mouseleave", () => this.showDefaultImage(profileImg));
-
-      // Set initial image
-      this.showDefaultImage(profileImg);
-    },
-
-    showHoverImage(profileImg) {
-      profileImg.src = this.hoverImages[this.counter];
-      this.counter = (this.counter + 1) % this.hoverImages.length;
-    },
-
-    showDefaultImage(profileImg) {
-      profileImg.src = this.defaultImage;
-    }
-  };
 
   // Clipboard functionality
   const ClipboardManager = {
@@ -235,7 +204,6 @@
   // Initialize everything when DOM is ready
   const initializeApp = () => {
     ThemeManager.init();
-    ProfileManager.init();
     ClipboardManager.init();
     Utils.setFooterYear();
     Utils.setupMoreContentScroll();
