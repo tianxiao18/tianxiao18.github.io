@@ -1,0 +1,6 @@
+@inproceedings{he2025lfp2vec,
+  title={Self Supervised Learning for In Vivo Localization of Microelectrode Arrays Using Raw Local Field Potential},
+  author={He, Tianxiao and Patel, M. and Li, C. and Maslarova, A. and V{\"o}r{\"o}slakos, M. and Ramanathan, N. and Hung, W. and Buzs{\'a}ki, G. and Varol, Erdem},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2025}
+}

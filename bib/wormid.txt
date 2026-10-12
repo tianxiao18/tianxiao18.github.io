@@ -1,0 +1,6 @@
+@article{adhinarta2025wormid,
+  title={{WormID-Benchmark}: Extracting Whole-Brain Neural Dynamics of {C. elegans} at the Neuron Resolution},
+  author={Adhinarta, J. and Dong, J. and He, Tianxiao and Huang, J. and Sprague, D. and Wan, J. and Lee, H.J. and Yu, Z. and Lu, H. and Yemini, E. and Kato, S. and Varol, Erdem and Wei, D.},
+  journal={bioRxiv},
+  year={2025}
+}

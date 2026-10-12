@@ -1,0 +1,6 @@
+@inproceedings{zhang2023clusterless,
+  title={Bypassing Spike Sorting: Density-Based Decoding Using Spike Localization from Dense Multielectrode Probes},
+  author={Zhang, Yizi and He, Tianxiao and Boussard, J. and Windolf, C. and Winter, O. and Trautmann, E.M. and Roth, N. and Barrel, H. and Churchland, M.M. and Steinmetz, N. and Varol, Erdem and Hurwitz, C.L. and Paninski, Liam},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2023}
+}

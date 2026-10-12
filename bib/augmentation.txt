@@ -1,0 +1,6 @@
+@inproceedings{he2026augmentation,
+  title={How Data Augmentation Shapes Neural Representations},
+  author={He, Tianxiao and Williams, Alex and Harvey, Sarah},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026}
+}

@@ -120,7 +120,7 @@
       "assets/profile/cuda.webp",
       "assets/profile/mcflurry.webp",
     ],
-    defaultImage: "assets/profile/pcma.webp",
+    defaultImage: "assets/profile/tianxiao.jpg",
 
     init() {
       const profileCredit = document.getElementById("profile-credit");
