@@ -283,6 +283,31 @@ a:hover {
 }
 
 /*------------------
+ * News
+ *------------------*/
+
+.news-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.news-list li {
+  padding: 2px 0;
+}
+
+.news-date {
+  font-weight: bold;
+  color: var(--cardinal);
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+[data-bs-theme=dark] .news-date {
+  color: var(--light-cardinal);
+}
+
+/*------------------
  * Publications
  *------------------*/
 
